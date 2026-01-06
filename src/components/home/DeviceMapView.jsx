@@ -9,14 +9,14 @@ delete L.Icon.Default.prototype._getIconUrl;
 // ✅ Custom Icons
 const greenPoleIcon = new L.Icon({
     iconUrl: "/pole_green.png",
-    iconSize: [32, 32],
+    iconSize: [50, 50],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32],
 });
 
 const redPoleIcon = new L.Icon({
     iconUrl: "/pole_red.png",
-    iconSize: [32, 32],
+    iconSize: [50, 50],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32],
 });
