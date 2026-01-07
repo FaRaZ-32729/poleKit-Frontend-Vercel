@@ -100,7 +100,7 @@ const NavigationBar = () => {
             </aside>
 
             {/* MOBILE BOTTOM NAV */}
-            <nav className="fixed bottom-0 left-0 w-full bg-blue-600 shadow-xl py-1 flex justify-around md:hidden z-50 rounded-tl-xl rounded-tr-xl">
+            <nav className="fixed bottom-0 left-0 w-full bg-blue-600 shadow-xl py-3 flex justify-around md:hidden z-50 rounded-tl-xl rounded-tr-xl">
                 {navItems.map((item) => {
                     const isActive = location.pathname === item.path;
                     return (
