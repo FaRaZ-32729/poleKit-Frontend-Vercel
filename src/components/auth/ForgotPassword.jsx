@@ -9,11 +9,12 @@ const ForgotPassword = () => {
                 <div className="p-8 w-full">
                     <form className="space-y-6 lg:p-24 p-0">
                         <div className="mb-8 text-center md:text-left">
-                            <img
+                            {/* <img
                                 src="/logo.png"
                                 alt="IoTify Logo"
                                 className="h-10 mx-auto md:mx-0 mb-4"
-                            />
+                            /> */}
+                            <img src="/poleKitLogoD.png" alt="SmartVolt Logo" className="h-10 sm:h-15 mx-auto md:mx-0 mb-4" />
                             <h3 className="text-slate-900 text-2xl font-semibold">
                                 Forgot Password
                             </h3>
@@ -69,12 +70,19 @@ const ForgotPassword = () => {
                     </div>
 
                     {/* Main Image */}
-                    <div className="flex-grow flex items-center justify-center p-4">
+                    {/* <div className="flex-grow flex items-center justify-center p-4">
                         <img
                             src="/login-image.png"
                             className="w-full h-auto object-contain"
                             alt="Illustration"
                         />
+                    </div> */}
+                    {/* Right Panel */}
+                    <div style={{ backgroundColor: "#EAEAEA" }} className="h-full hidden md:flex flex-col items-center justify-between p-4">
+
+                        <div className="flex-grow flex items-center justify-center p-4">
+                            <img src="/poleKitLogin.png" className="w-full h-auto object-contain" />
+                        </div>
                     </div>
                 </div>
 
