@@ -121,13 +121,13 @@ const ResetPassword = () => {
                         />
                     </div>
                 </div> */}
-                {/* Right Panel */}
-                <div style={{ backgroundColor: "#EAEAEA" }} className="h-full hidden md:flex flex-col items-center justify-between p-4">
+                    {/* Right Panel */}
+                    <div style={{ backgroundColor: "#EAEAEA" }} className="h-full hidden md:flex flex-col items-center justify-between p-4">
 
-                    <div className="flex-grow flex items-center justify-center p-4">
-                        <img src="/poleKitLogin.png" className="w-full h-auto object-contain" />
+                        <div className="flex-grow flex items-center justify-center p-4">
+                            <img src="/poleKitLogin.png" className="w-full h-auto object-contain" />
+                        </div>
                     </div>
-                </div>
 
             </div>
         </div>
