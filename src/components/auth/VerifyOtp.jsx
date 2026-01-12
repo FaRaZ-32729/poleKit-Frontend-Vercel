@@ -56,7 +56,7 @@ const VerifyOtp = () => {
             <div className="grid md:grid-cols-2 rounded-4xl items-stretch max-w-7xl w-full bg-white shadow-lg overflow-hidden">
 
                 {/* Left (Form) Section */}
-                <div className="p-8 w-full">
+                <div className="lg:p-0 p-8 w-full">
                     <form
                         className="space-y-6 lg:p-24 p-0"
                         onSubmit={handleVerify}
@@ -124,13 +124,13 @@ const VerifyOtp = () => {
                         />
                     </div>
                 </div> */}
-                    {/* Right Panel */}
-                    <div style={{ backgroundColor: "#EAEAEA" }} className="h-full hidden md:flex flex-col items-center justify-between p-4">
+                {/* Right Panel */}
+                <div style={{ backgroundColor: "#EAEAEA" }} className="h-full hidden md:flex flex-col items-center justify-between p-4">
 
-                        <div className="flex-grow flex items-center justify-center p-4">
-                            <img src="/poleKitLogin.png" className="w-full h-auto object-contain" />
-                        </div>
+                    <div className="flex-grow flex items-center justify-center p-4">
+                        <img src="/poleKitLogin.png" className="w-full h-auto object-contain" />
                     </div>
+                </div>
 
             </div>
         </div>

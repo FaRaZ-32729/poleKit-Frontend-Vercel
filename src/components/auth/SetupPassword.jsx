@@ -58,7 +58,7 @@ const SetupPassword = () => {
         <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4 sm:p-0">
             <div className="grid md:grid-cols-2 rounded-4xl items-stretch max-w-7xl w-full bg-white shadow-lg overflow-hidden">
                 {/* Left (Form) Section */}
-                <div className="p-8 w-full">
+                <div className="lg:p-0 p-8 w-full">
                     <form className="space-y-6 lg:p-24 p-0" onSubmit={handleSubmit}>
                         <div className="mb-8 text-center md:text-left">
                             {/* <img
@@ -151,7 +151,7 @@ const SetupPassword = () => {
                         />
                     </div>
                 </div> */}
-                
+
                     {/* Right Panel */}
                     <div style={{ backgroundColor: "#EAEAEA" }} className="h-full hidden md:flex flex-col items-center justify-between p-4">
 
