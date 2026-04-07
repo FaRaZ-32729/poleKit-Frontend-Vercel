@@ -50,7 +50,7 @@ const Sidebar = () => {
 
         const intervalId = setInterval(() => {
             fetchDevicesByVenue(selectedVenue._id);
-        }, 60 * 1000);
+        }, 20 * 1000);
 
         return () => clearInterval(intervalId);
     }, [selectedVenue?._id]);
